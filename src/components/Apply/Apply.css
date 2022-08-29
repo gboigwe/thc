@@ -1,0 +1,142 @@
+.apply {
+  padding: 5%;
+}
+.apply-boxes {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.apply-box {
+  background: var(--color-white);
+  padding: 3%;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.apply-box-img img {
+  width: 5rem;
+}
+
+.apply-img {
+  border-radius: 50%;
+  height: 80px;
+  width: 110px;
+  overflow: hidden;
+}
+
+.apply-img img{
+  width: 5rem;
+}
+
+.apply-box-content h2, p {
+  margin-bottom: 1rem;
+}
+
+/* ======= MEDIA QUERIES (MEDIUM SIZE) ======= */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+  .apply {
+    padding: 4%;
+  }
+  .apply-boxes {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .apply-box {
+    background: var(--color-white);
+    padding: 2%;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .apply-box-img img {
+    width: 3rem;
+  }
+  
+  .apply-img {
+    border-radius: 50%;
+    height: 40px;
+    width: 70px;
+    overflow: hidden;
+  }
+  
+  .apply-img img{
+    width: 3rem;
+  }
+  
+  .apply-box-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+  }
+
+  .apply-box-content p {
+    margin-bottom: 5px;
+    font-size: .7rem;
+  }
+
+  .apply-box-content a {
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding: 5%;
+  }
+}
+
+/* ======= MEDIA QUERIES (SMALL SIZE) ======= */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+  .apply {
+    padding: 2%;
+  }
+  .apply-boxes {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .apply-box {
+    background: var(--color-white);
+    padding: 2%;
+    display: flex;
+    gap: .5rem;
+  }
+  
+  .apply-box-img img {
+    width: 2rem;
+  }
+  
+  .apply-img {
+    border-radius: 50%;
+    height: 30px;
+    width: 70px;
+    overflow: hidden;
+  }
+  
+  .apply-img img{
+    width: 2rem;
+  }
+  
+  .apply-box-content h2 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  .apply-box-content p {
+    margin-bottom: 5px;
+    font-size: .6rem;
+  }
+
+  .apply-box-content a {
+    margin-bottom: 5px;
+    font-size: 10px;
+    padding: 5%;
+  }
+}

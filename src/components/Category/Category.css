@@ -1,0 +1,146 @@
+.category {
+  padding: 8%;
+  background: var(--color-white);
+}
+
+.category-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.category-top-text h1 {
+  font-size: 2.1rem;
+}
+
+.category-top-nav a {
+  margin-left: 3rem;
+}
+
+.category-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.category-body-box {
+  padding: 1rem;
+  width: 12rem;
+  
+  transition: 0.5s ease;
+}
+
+.box1 {
+  background:rgb(255, 156, 255);
+}
+
+.box2 {
+  background: rgb(255, 226, 231);
+}
+
+.box3 {
+  background: rgb(177, 255, 255);
+}
+
+.box4 {
+  background:rgb(163, 255, 163);
+}
+
+.box5 {
+  background: rgb(163, 255, 163);
+}
+
+.box6 {
+  background:  rgb(177, 255, 255);
+}
+
+.box7 {
+  background:  rgb(255, 226, 231);
+}
+
+.box8 {
+  background: rgb(255, 156, 255);
+}
+
+.category-body-box:hover {
+  background: orange;
+  /* background: var(--color-gold); */
+}
+
+/* ======= MEDIA QUERIES (MEDIUM SIZE) ======= */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+  .category {
+    padding: 2%;
+    background: var(--color-white);
+  }
+  
+  .category-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .category-top-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .category-top-nav a {
+    margin-left: 1rem;
+  }
+  
+  .category-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  
+  .category-body-box {
+    padding: 1rem;
+    width: 10rem;
+    
+    transition: 0.5s ease;
+  }
+}
+
+/* ======= MEDIA QUERIES (SMALL SIZE) ======= */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+  .category {
+    padding: 2%;
+    background: var(--color-white);
+  }
+  
+  .category-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .category-top-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .category-top-nav a {
+    margin-left: 1rem;
+  }
+  
+  .category-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .category-body-box {
+    padding: 1rem;
+    width: 12rem;
+    
+    transition: 0.5s ease;
+  }
+}

@@ -1,0 +1,200 @@
+.course {
+  padding: 10%;
+  background: var(--color-primary);
+}
+
+.course-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.course-top-nav a {
+  margin-left: 3rem;
+}
+
+.course-ss-all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.course-ss {
+  background: var(--color-white);
+  height: 30rem;
+  width: 20rem;
+  overflow: hidden;
+  padding: 2%;
+}
+
+.course-s-img {
+  height: 15rem;
+  overflow: hidden;
+}
+
+.course-s img {
+  width: 20rem;
+}
+
+.course-s hr {
+  background-color: rgba(0, 0, 0, 0.151);
+  height:0.5px;
+  width:100% ;
+}
+
+.course-s-content{
+  height: 15rem;
+}
+
+.course-s-content p {
+  font-size: 20px;
+  padding: 1rem 0rem;
+}
+
+.course_s_bottom_img img {
+  width: 2rem;
+  margin-right: -40px;
+}
+
+.course-s-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* ======= MEDIA QUERIES (MEDIUM SIZE) ======= */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+  .course {
+    padding: 2%;
+  }
+  
+  .course-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .course-top-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .course-top-nav a {
+    margin-left: 1rem;
+  }
+  
+  .course-ss {
+    background: var(--color-white);
+    height: 15rem;
+    width: 10rem;
+    overflow: hidden;
+    padding: 2%;
+  }
+  
+  .course-s-img {
+    height: 5rem;
+    overflow: hidden;
+  }
+  
+  .course-s img {
+    width: 9rem;
+  }
+
+  .course-s p {
+    font-size: 8px;
+  }
+
+  /* .course-s hr {
+    background-color: rgba(0, 0, 0, 0.151);
+    height:0.5px;
+    width:100% ;
+  } */
+  
+  .course-s-content{
+    height: 1rem;
+    font-size: 8px;
+  }
+  
+  .course-s-content p {
+    font-size: 10px;
+    padding: .3rem 0rem;
+  }
+  
+  .course_s_bottom_img img {
+    width: 1rem;
+    margin-right: -3px; 
+  }
+}
+
+/* ======= MEDIA QUERIES (SMALL SIZE) ======= */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+
+  .course {
+    padding: 2%;
+  }
+  
+  .course-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .course-top-text h1 {
+    font-size: 1.5rem;
+  }
+  
+  .course-top-nav a {
+    margin-left: 1rem;
+  }
+  
+  .course-ss {
+    background: var(--color-white);
+    height: 15rem;
+    width: 20rem;
+    overflow: hidden;
+    padding: 2%;
+  }
+  
+  .course-s-img {
+    height: 5rem;
+    overflow: hidden;
+  }
+  
+  .course-s img {
+    width: 6rem;
+  }
+
+  .course-s p {
+    font-size: 5px;
+  }
+
+  /* .course-s hr {
+    background-color: rgba(0, 0, 0, 0.151);
+    height:0.5px;
+    width:100% ;
+  } */
+  
+  .course-s-content{
+    height: 3rem;
+    font-size: 6px;
+  }
+  
+  .course-s-content p {
+    font-size: 10px;
+    padding: .3rem 0rem;
+  }
+  
+  .course_s_bottom_img img {
+    width: 1rem;
+    margin-right: -3px; 
+  }
+}
+
