@@ -8,10 +8,10 @@ const Coaching = () => {
             <section className="container">
                 <div className="coaching-top">
                     <div className="coaching-img img1">
-                        <img src={THC1} alt="image icon" />
+                        <img src={THC1} alt="learner icon" />
                     </div>
                     <div className="coaching-img img2">
-                        <img src={THC1} alt="image icon" />
+                        <img src={THC1} alt="learner icon" />
                     </div>
                 </div>
                 <div className="coaching-circle">
@@ -20,10 +20,10 @@ const Coaching = () => {
                 </div>
                 <div className="coaching-middle">
                     <div className="coaching-img img1">
-                        <img src={THC1} alt="image icon" />
+                        <img src={THC1} alt="learner icon" />
                     </div>
                     <div className="coaching-img img2">
-                        <img src={THC1} alt="image icon" />
+                        <img src={THC1} alt="learner icon" />
                     </div>
                 </div>
                 <div className="coaching-content">
@@ -33,10 +33,10 @@ const Coaching = () => {
                 </div>
                 <div className="coaching-buttom">
                     <div className="coaching-img img1">
-                        <img src={THC1} alt="image icon" />
+                        <img src={THC1} alt="learner icon" />
                     </div>
                     <div className="coaching-img img2">
-                        <img src={THC1} alt="image icon" />
+                        <img src={THC1} alt="learner icon" />
                     </div>
                 </div>
             </section>
