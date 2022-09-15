@@ -47,6 +47,7 @@
 .coaching-content {
   text-align: center;
   gap: 2rem;
+  color: var(--color-white) ;
 }
 
 .coaching-content h2 {
