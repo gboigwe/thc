@@ -10,13 +10,13 @@
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 2rem;
-  color: var(--color-white) ;
 }
 
 .header-content {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 2rem;
+  color: var(--color-white);
 }
 
 .header-input {
